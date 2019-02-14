@@ -1,0 +1,1 @@
+This a keras implementation of image caption generator trained using deep learning model on Flickr 8k dataset. The model consists of feature extractor of image (Resnet 50) and Sequence generator (3 layered LSTM) added together and given as input to dense layers. The output is multiclass (sequence of tokens), thus generating captions.   
